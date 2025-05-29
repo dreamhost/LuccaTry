@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JAMStack Website Template",
-  description: "A template for building JAMStack websites with Next.js, React, TypeScript, and shadcn/ui"
+  title: "WonderBear | Alice in Wonderland Themed Teddy Bear",
+  description: "Discover WonderBear, a magical teddy bear inspired by Alice's adventures in Wonderland. Handcrafted with curious details from Lewis Carroll's timeless tale.",
+  keywords: "Alice in Wonderland teddy bear, literary teddy bear, collectible teddy bear, WonderBear, handcrafted teddy bear, premium plush toy"
 };
 
 export default function RootLayout({
@@ -23,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-   <html data-editor-tag="Ct3cCsS6rn"  lang="en">
-     <body data-editor-tag="yX0UCWdho0" 
+   <html data-editor-tag="1NTFCfO8jD"  lang="en">
+     <body data-editor-tag="HjfMKezArr" 
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
